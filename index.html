@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Cafeteria</title>
+</head>
+
+<body>
+    <div class="video">
+        <video src="videos/coffe.mp4" loop muted autoplay></video>
+        <div class="mascara"></div>
+    </div>
+    <header>
+        <section>
+            <a>
+                <img src="img/logo (1).png" alt="logo-cafeteria">
+            </a>
+
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Sobre</a>
+                <a href ="#" onclick="mostrarmodal()">Endereço</a>
+            </nav>
+        </section>
+    </header>
+
+    <section class="caixa-principal">
+        <div>
+            <h3>Code com o melhor café da região</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam obcaecati esse itaque deleniti minus fuga
+                ad? Unde porro, repellat excepturi quis quo nostrum enim dignissimos rem quia odio veniam numquam</p>
+            <a class="botao-link">Pegue o seu Agora</a>
+        </div>
+    </section>
+
+    <section class="caixa-sobre">
+        <h2 class="titulo"> <span>Sobre</span> Nós</h2>
+        <div class="sobre-container">
+            <div class="sobre-imagem">
+                <img src="img/about-img.jpeg">
+            </div>
+
+            <div class="sobre-texto">
+                <h3>O que faz nosso café ser especial</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio reprehenderit consectetur rerum fugiat
+                    aut quaerat harum iusto necessitatibus tenetur, tempore in provident quasi corrupti expedita eos est
+                    cumque officiis sequi.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam architecto assumenda ipsa soluta,
+                    voluptatibus iusto voluptas, laborum accusamus corrupti rerum impedit, sapiente eaque dolorem nam
+                    commodi dignissimos dolor vero unde!</p>
+                <a class="botao-link">Saiba Mais</a>
+            </div>
+
+
+        </div>
+    </section>
+    <div class="modal">
+        <h3 class="titulo"><span>Nosso</span> Endereço</h3>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14817.300293019578!2d-49.61973213310208!3d-21.80636750835719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94be467589002709%3A0x54c03e662abc324e!2sCafel%C3%A2ndia%2C%20SP%2C%2016500-000!5e0!3m2!1spt-BR!2sbr!4v1738101080539!5m2!1spt-BR!2sbr"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+    <div class="mascara-modal" onclick="escondermodal()"> </div>
+
+    <script src="srcipts.js"></script>
+
+
+</body>
+
+
+</html>
