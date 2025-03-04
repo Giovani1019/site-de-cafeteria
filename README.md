@@ -3,4 +3,6 @@
 <br>
 <h2>A melhor cafeteria da região</h2>
 
-<img src=""
+<img src="https://github.com/Giovani1019/site-de-cafeteria/blob/main/site-cafeteria.png?raw=true">
+<br>
+<p>A melhor cafeteria da região com os melhores cafés e com os melhores preços.Então não perca a oportunidade e venha conhecer nossa cafeteria</p>
