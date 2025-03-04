@@ -8,5 +8,5 @@
 <p>A melhor cafeteria da região com os melhores cafés e com os melhores preços.Então não perca a oportunidade e venha conhecer nossa cafeteria</p>
 <br>
 
-<a href=" https://giovani1019.github.io/site-de-cafeteria/"> Veja o site pronto</a>
+
 
